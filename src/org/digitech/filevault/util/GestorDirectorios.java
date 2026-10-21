@@ -1,5 +1,5 @@
-package com.empresa.util;
-import com.empresa.exception.GestorArchivosException;
+package org.digitech.filevault.util;
+import org.digitech.filevault.exception.GestorArchivosException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;

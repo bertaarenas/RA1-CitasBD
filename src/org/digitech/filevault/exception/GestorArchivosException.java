@@ -1,4 +1,4 @@
-package com.empresa.exception;
+package org.digitech.filevault.exception;
 public class GestorArchivosException extends Exception {
 
     public GestorArchivosException(String mensaje) {

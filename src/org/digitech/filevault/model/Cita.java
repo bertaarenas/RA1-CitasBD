@@ -1,4 +1,4 @@
-package com.empresa.model;
+package org.digitech.filevault.model;
 import java.io.Serializable;
 public class Cita implements Serializable {
 
