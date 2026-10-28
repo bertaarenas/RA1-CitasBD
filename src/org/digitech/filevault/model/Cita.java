@@ -6,12 +6,14 @@ public class Cita implements Serializable {
 
     private int id;
     private String paciente;
+    private String medico;
     private String especialidad;
     private String fecha;
 
     public Cita(int id, String paciente, String especialidad, String fecha) {
         this.id = id;
         this.paciente = paciente;
+        this.medico = medico;
         this.especialidad = especialidad;
         this.fecha = fecha;
     }
@@ -24,6 +26,8 @@ public class Cita implements Serializable {
         return paciente;
     }
 
+    public String getMedico() {return medico;}
+
     public String getEspecialidad() {
         return especialidad;
     }
@@ -34,7 +38,6 @@ public class Cita implements Serializable {
 
     @Override
     public String toString() {
-        return "Cita [ID=" + id + ", Paciente=" + paciente
-                + ", Especialidad=" + especialidad + ", Fecha=" + fecha + "]";
+        return "Cita [ID=" + id + ", Paciente=" + paciente + ", Especialidad=" + especialidad + ", Médico: " + medico + ", Fecha=" + fecha + "]";
     }
 }
