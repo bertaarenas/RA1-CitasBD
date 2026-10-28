@@ -10,7 +10,7 @@ public class Cita implements Serializable {
     private String especialidad;
     private String fecha;
 
-    public Cita(int id, String paciente, String especialidad, String fecha) {
+    public Cita(int id, String paciente, String medico, String especialidad, String fecha) {
         this.id = id;
         this.paciente = paciente;
         this.medico = medico;
